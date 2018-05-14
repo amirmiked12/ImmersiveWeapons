@@ -1,0 +1,39 @@
+{
+  "itemName" : "axer15",
+  "price" : 600,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Very Sharp",
+  "shortdescription" : "Iron Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "axer15.png",
+
+  "animation" : "axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "axer15.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"], 
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 13.5
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua" 
+  
+}

@@ -1,0 +1,39 @@
+{
+  "itemName" : "axer4",
+  "price" : 400,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Very Sharp",
+  "shortdescription" : "Silver Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "axer4.png",
+
+  "animation" : "axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "axer4.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"], 
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 14.5
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua" 
+  
+}

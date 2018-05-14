@@ -1,0 +1,37 @@
+{
+  "itemName" : "witcheryellow1",
+  "price" : 1800,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "a Bastard",
+  "shortdescription" : "Black Long Sword",
+  "tooltipKind" : "sword",
+  "category" : "Bastard",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "witcheryellow1.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "witcheryellow1.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 18
+  },
+  
+  "altAbilityType" : "risingslash",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

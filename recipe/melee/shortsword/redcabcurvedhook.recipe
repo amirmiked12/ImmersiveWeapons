@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 7 },
+    { "item" : "blackdye", "count" : 2 },
+    { "item" : "leather", "count" : 3 },
+	{ "item" : "reddye", "count" : 2 },
+	{ "item" : "string", "count" : 4 }
+
+  ],
+  "output" : { "item" : "redcabcurvedhook", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Sword", "all" ]
+}

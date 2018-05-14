@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "darkwoodmaterial", "count" : 16 },
+    { "item" : "leather", "count" : 3 },
+	{ "item" : "string", "count" : 6 },
+	{ "item" : "browndye", "count" : 2 }
+
+  ],
+  "output" : { "item" : "biigeraxerwooderbrown", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Hammer", "all" ]
+}

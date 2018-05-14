@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "ironbar", "count" : 2 }
+
+  ],
+  "output" : { "item" : "spikdermacer", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

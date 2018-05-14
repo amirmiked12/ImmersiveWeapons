@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "plantfibre", "count" : 10 },
+	{ "item" : "string", "count" : 5 }
+
+  ],
+  "output" : { "item" : "rustedkatana", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

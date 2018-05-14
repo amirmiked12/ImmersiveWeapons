@@ -1,0 +1,37 @@
+{
+  "itemName" : "newelvensowrdpacker4",
+  "price" : 2400,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Its For Those With Long ears",
+  "shortdescription" : "Elven Broadsword",
+  "tooltipKind" : "sword",
+  "category" : "Long Sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "newelvensowrdpacker4.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "newelvensowrdpacker4.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "baseDps" : 23
+  },
+  
+  "altAbilityType" : "risingslah",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

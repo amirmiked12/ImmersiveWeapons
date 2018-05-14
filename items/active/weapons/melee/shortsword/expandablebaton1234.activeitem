@@ -1,0 +1,35 @@
+{
+  "itemName" : "expandablebaton1234",
+  "price" : 150,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Baton",
+  "shortdescription" : "Expandable Baton",
+  "tooltipKind" : "sword",
+  "category" : "Baton",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "expandablebaton1234.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "expandablebaton1234.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 11
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

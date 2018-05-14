@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 8 },
+	{ "item" : "tungstenbar", "count" : 7 },
+    { "item" : "plantfibre", "count" : 4 },
+    { "item" : "string", "count" : 8 },
+	{ "item" : "browndye", "count" : 2 },
+	{ "item" : "leather", "count" : 4 }
+
+  ],
+  "output" : { "item" : "tungestantommahakerpack", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

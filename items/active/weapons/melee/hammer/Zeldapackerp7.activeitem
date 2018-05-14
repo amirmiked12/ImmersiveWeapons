@@ -1,0 +1,43 @@
+{
+  "itemName" : "Zeldapackerp7",
+  "price" : 7000,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Just Wondering What Does That Symbol Mean ",
+  "shortdescription" : "Legend Of Zelda Hammer",
+  "tooltipKind" : "sword",
+  "category" : "War Hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+
+  "inventoryIcon" : "Zeldapackerp7.png",
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "Zeldapackerp7.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.5,
+    "baseDps" : 30,
+    "damageConfig" : {
+      "knockback" : 15
+    }
+  },
+
+  "altAbilityType" : "physicalshockwave",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

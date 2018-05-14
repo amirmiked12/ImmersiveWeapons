@@ -1,0 +1,37 @@
+{
+  "itemName" : "witchertwicherpack6",
+  "price" : 2500,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Bastard.very Heavy",
+  "shortdescription" : "Long Heavy Bastard ",
+  "tooltipKind" : "sword",
+  "category" : "Bastard",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "witchertwicherpack6.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "witchertwicherpack6.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.2,
+    "baseDps" : 26
+  },
+  
+  "altAbilityType" : "bladecharge",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

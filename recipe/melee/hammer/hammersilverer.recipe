@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 15 },
+    { "item" : "darkwoodmaterial", "count" : 16 },
+	{ "item" : "string", "count" : 3 },
+	{ "item" : "leather", "count" : 7 }
+
+  ],
+  "output" : { "item" : "hammersilverer", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Hammer", "all" ]
+}

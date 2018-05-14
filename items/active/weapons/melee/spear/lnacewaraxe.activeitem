@@ -1,0 +1,40 @@
+{
+  "itemName" : "lnacewaraxe",
+  "price" : 1600,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Lance",
+  "shortdescription" : "Iron Lance",
+  "tooltipKind" : "sword",
+  "category" : "Medival polearm",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "lnacewaraxe.png",
+
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "lnacewaraxe.png"
+  },
+  "animationCustom" : {"sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }},
+
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 14.6
+  },  
+  "altAbilityType" : "flurry",
+  
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

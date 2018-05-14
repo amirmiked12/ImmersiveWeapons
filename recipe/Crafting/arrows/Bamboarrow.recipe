@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "bamboo", "count" : 2 },
+	{ "item" : "ironbar", "count" : 1 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "feathermaterialim", "count" : 4 },
+	{ "item" : "darkwoodmaterial", "count" : 2 },
+    { "item" : "string", "count" : 2 }
+
+  ],
+  "output" : { "item" : "Bamboarrow", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Craftingmaterails", "all" ]
+}

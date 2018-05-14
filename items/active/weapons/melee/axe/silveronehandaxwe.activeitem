@@ -1,0 +1,39 @@
+{
+  "itemName" : "silveronehandaxwe",
+  "price" : 100,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Hammer",
+  "shortdescription" : "Small Iron Hammer",
+  "tooltipKind" : "sword",
+  "category" : "Hammer",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "silveronehandaxwe.png",
+
+  "animation" : "axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "silveronehandaxwe.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"], 
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.6,
+    "baseDps" : 8.5
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua" 
+  
+}

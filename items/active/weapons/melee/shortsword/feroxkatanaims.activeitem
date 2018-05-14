@@ -1,0 +1,39 @@
+{
+  "itemName" : "feroxkatanaims",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "very old Katana",
+  "shortdescription" : "Fenerox Katana",
+  "tooltipKind" : "sword",
+  "category" : "short Katana",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "feroxkatanaims.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "feroxkatanaims.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 17,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "knockback" : 17
+    }
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

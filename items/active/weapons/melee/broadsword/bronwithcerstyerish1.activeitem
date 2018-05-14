@@ -1,0 +1,37 @@
+{
+  "itemName" : "bronwithcerstyerish1",
+  "price" : 2600,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Bastard.Only A strong man Could Hold It",
+  "shortdescription" : "Long Heavy Bastard ",
+  "tooltipKind" : "sword",
+  "category" : "Bastard",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "bronwithcerstyerish1.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "bronwithcerstyerish1.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.1,
+    "baseDps" : 27
+  },
+  
+  "altAbilityType" : "risingslash",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

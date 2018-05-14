@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 6 },
+	{ "item" : "darkwoodmaterial", "count" : 8 },
+    { "item" : "leather", "count" : 2 },
+	{ "item" : "string", "count" : 5 },
+	{ "item" : "bluedye", "count" : 2 },
+	{ "item" : "blackdye", "count" : 2 }
+
+
+  ],
+  "output" : { "item" : "camofmahceteblue", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

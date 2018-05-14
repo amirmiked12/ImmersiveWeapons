@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 7 },
+    { "item" : "string", "count" : 6 },
+    { "item" : "tungstenbar", "count" : 8 },
+    { "item" : "leather", "count" : 3 },
+	{ "item" : "bluedye", "count" : 2 }
+
+  ],
+  "output" : { "item" : "hunerkniferbluyerbluer", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Dagger", "all" ]
+}

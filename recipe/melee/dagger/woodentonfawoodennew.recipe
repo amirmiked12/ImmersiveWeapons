@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "browndye", "count" : 2 },
+	{ "item" : "yellowdye", "count" : 2 },
+	{ "item" : "string", "count" : 5 }
+
+  ],
+  "output" : { "item" : "woodentonfawoodennew", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Dagger", "all" ]
+}

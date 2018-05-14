@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 5 },
+    { "item" : "ironbar", "count" : 11 },
+	{ "item" : "darkwoodmaterial", "count" : 5 },
+    { "item" : "string", "count" : 8 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "browndye", "count" : 4 }
+
+  ],
+  "output" : { "item" : "witchebornwcuved", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

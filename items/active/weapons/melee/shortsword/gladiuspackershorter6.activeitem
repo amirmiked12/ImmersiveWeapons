@@ -1,0 +1,35 @@
+{
+  "itemName" : "gladiuspackershorter6",
+  "price" : 800,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "All I Know Is that It Was Used By Romans",
+  "shortdescription" : "Short Gladius",
+  "tooltipKind" : "sword",
+  "category" : "Sword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "gladiuspackershorter6.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "gladiuspackershorter6.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 13
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

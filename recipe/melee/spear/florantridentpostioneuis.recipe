@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "liquidpoison", "count" : 15 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "greendye", "count" : 3 }
+
+  ],
+  "output" : { "item" : "florantridentpostioneuis", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

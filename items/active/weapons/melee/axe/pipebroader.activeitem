@@ -1,0 +1,39 @@
+{
+  "itemName" : "pipebroader",
+  "price" : 100,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A pipe",
+  "shortdescription" : "Plumber Pipe",
+  "tooltipKind" : "sword",
+  "category" : "Pipe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "pipebroader.png",
+
+  "animation" : "axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "pipebroader.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"], 
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 8.5
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua" 
+  
+}

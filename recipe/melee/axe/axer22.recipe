@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "ironbar", "count" : 14 },
+	{ "item" : "yellowdye", "count" : 4 },
+	{ "item" : "reddye", "count" : 2 }
+
+  ],
+  "output" : { "item" : "axer22", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

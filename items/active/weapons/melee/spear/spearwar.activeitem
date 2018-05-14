@@ -1,0 +1,40 @@
+{
+  "itemName" : "spearwar",
+  "price" : 6000,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Long spear",
+  "shortdescription" : "War Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "spearwar.png",
+
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "spearwar.png"
+  },
+  "animationCustom" : {"sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }},
+
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 24.4
+  },  
+  "altAbilityType" : "flurry",
+  
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

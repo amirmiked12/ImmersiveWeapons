@@ -1,0 +1,41 @@
+{
+  "itemName" : "feroxbastardims",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "It's Sharp Edges.Better Be Careful",
+  "shortdescription" : "Fenerox Bastard",
+  "tooltipKind" : "sword",
+  "category" : "Bastard",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "feroxbastardims.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "feroxbastardims.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 20,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "knockback" : 20
+    }
+  },
+  
+  "altAbilityType" : "parry",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

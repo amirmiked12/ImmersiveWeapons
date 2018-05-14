@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "string", "count" : 5 },
+	{ "item" : "leather", "count" : 2 },
+	{ "item" : "ironbar", "count" : 8 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "orangedye", "count" : 1 }
+
+  ],
+  "output" : { "item" : "gorzdarnewblacker", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

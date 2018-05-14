@@ -1,0 +1,43 @@
+{
+  "itemName" : "feroxmacheteims",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Machete,I Can Get Some Meat using This",
+  "shortdescription" : "Fenerox Machete",
+  "tooltipKind" : "sword",
+  "category" : "Machete",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "feroxmacheteims.png",
+
+  "animation" : "axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "feroxmacheteims.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"], 
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 15,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "knockback" : 18
+    }
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua" 
+  
+}

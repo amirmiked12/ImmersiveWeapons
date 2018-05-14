@@ -1,0 +1,37 @@
+{
+  "itemName" : "newboradersowrdpacker21",
+  "price" : 2800,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Long Sword",
+  "shortdescription" : "medieval Long Sword",
+  "tooltipKind" : "sword",
+  "category" : "Long Sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "newboradersowrdpacker21.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "newboradersowrdpacker21.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.1,
+    "baseDps" : 31
+  },
+  
+  "altAbilityType" : "bladecharge",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

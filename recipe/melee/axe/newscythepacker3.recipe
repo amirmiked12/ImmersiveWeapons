@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 8 },
+    { "item" : "ironbar", "count" : 4 },
+	{ "item" : "orangedye", "count" : 2 },
+    { "item" : "string", "count" : 4 }
+
+  ],
+  "output" : { "item" : "newscythepacker3", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

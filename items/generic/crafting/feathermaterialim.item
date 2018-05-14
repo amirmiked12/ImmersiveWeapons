@@ -1,0 +1,10 @@
+{
+  "itemName" : "feathermaterialim",
+  "price" : 5,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "feathermaterialim.png",
+  "description" : "It's Very Smooth",
+  "shortdescription" : "Feather",
+  "itemTags" : [ "reagent" ]
+}

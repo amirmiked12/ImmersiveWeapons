@@ -1,0 +1,37 @@
+{
+  "itemName" : "shinobikatna",
+  "price" : 3500,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Katana",
+  "shortdescription" : "Shinobi Katana",
+  "tooltipKind" : "sword",
+  "category" : "Katana",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "shinobikatna.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "shinobikatna.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 25.0
+  },
+  
+  "altAbilityType" : "kunaiblast",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 7 },
+    { "item" : "orangedye", "count" : 2 },
+	{ "item" : "darkwoodmaterial", "count" : 4 },
+	{ "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "leather", "count" : 2 },
+	{ "item" : "string", "count" : 5 }
+
+  ],
+  "output" : { "item" : "mikeytyrutkatnaorgstraigter", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Sword", "all" ]
+}

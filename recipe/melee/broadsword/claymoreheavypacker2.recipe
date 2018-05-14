@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 8 },
+    { "item" : "ironbar", "count" : 12 },
+	{ "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "string", "count" : 10 },
+	{ "item" : "browndye", "count" : 4 },
+	{ "item" : "blackdye", "count" : 2 }
+
+  ],
+  "output" : { "item" : "claymoreheavypacker2", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

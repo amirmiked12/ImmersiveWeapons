@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "plantblock", "count" : 8 },
+    { "item" : "tungstenbar", "count" : 4 },
+	{ "item" : "plantfibre", "count" : 4 },
+	{ "item" : "leather", "count" : 2 },
+    { "item" : "string", "count" : 4 }
+
+  ],
+  "output" : { "item" : "newscythepacker7", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

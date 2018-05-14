@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 9 },
+	{ "item" : "copperbar", "count" : 7 },
+    { "item" : "string", "count" : 8 },
+	{ "item" : "browndye", "count" : 2 },
+	{ "item" : "leather", "count" : 4 }
+
+  ],
+  "output" : { "item" : "axer1", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

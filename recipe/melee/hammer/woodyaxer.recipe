@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 8 },
+    { "item" : "darkwoodmaterial", "count" : 16 },
+    { "item" : "leather", "count" : 2 },
+	{ "item" : "string", "count" : 6 }
+
+  ],
+  "output" : { "item" : "woodyaxer", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Hammer", "all" ]
+}

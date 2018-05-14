@@ -1,0 +1,35 @@
+{
+  "itemName" : "carbonhooksword",
+  "price" : 500,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A hook Sword",
+  "shortdescription" : "Carbon Hook Sword",
+  "tooltipKind" : "sword",
+  "category" : "Hook sword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "carbonhooksword.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "carbonhooksword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 14
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

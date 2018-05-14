@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "cobblestonematerial", "count" : 5 },
+    { "item" : "climbingrope", "count" : 3 }
+
+  ],
+  "output" : { "item" : "feroxbigdaggerims", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Dagger", "all" ]
+}

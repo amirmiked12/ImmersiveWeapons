@@ -1,0 +1,43 @@
+{
+  "itemName" : "stonehammerims",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Very Effective In Hunting",
+  "shortdescription" : "Primitive Hammer",
+  "tooltipKind" : "sword",
+  "category" : "Hammer",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "stonehammerims.png",
+
+  "animation" : "axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "stonehammerims.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"], 
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 15,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "knockback" : 15
+    }
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua" 
+  
+}

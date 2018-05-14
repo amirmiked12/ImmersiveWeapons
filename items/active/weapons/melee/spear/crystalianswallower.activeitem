@@ -1,0 +1,40 @@
+{
+  "itemName" : "crystalianswallower",
+  "price" : 1600,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : " It's Very Cold ",
+  "shortdescription" : "Crystal Swalllow",
+  "tooltipKind" : "sword",
+  "category" : "Swallow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "crystalianswallower.png",
+
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "crystalianswallower.png"
+  },
+  "animationCustom" : {"sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }},
+
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 16.0
+  },  
+  "altAbilityType" : "elementalspin",
+  
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

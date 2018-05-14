@@ -1,0 +1,35 @@
+{
+  "itemName" : "witehrpackeralternater1",
+  "price" : 600,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Very Sharp",
+  "shortdescription" : "Iron Short Bastard",
+  "tooltipKind" : "sword",
+  "category" : "Bastard",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "witehrpackeralternater1.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "witehrpackeralternater1.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 16.4
+  }, 
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

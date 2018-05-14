@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 7 },
+	{ "item" : "plantfibre", "count" : 9 }
+
+  ],
+  "output" : { "item" : "stonehookersowrdimw", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Sword", "all" ]
+}

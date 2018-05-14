@@ -1,0 +1,37 @@
+{
+  "itemName" : "rustedkatana",
+  "price" : 1000,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Katana",
+  "shortdescription" : "Old Katana",
+  "tooltipKind" : "sword",
+  "category" : "Katana",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "rustedkatana.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "rustedkatana.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 9
+  },
+  
+  "altAbilityType" : "",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

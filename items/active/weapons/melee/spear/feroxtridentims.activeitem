@@ -1,0 +1,44 @@
+{
+  "itemName" : "feroxtridentims",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "a Trident, Its Dying For Some Hunting",
+  "shortdescription" : "Fenerox Trident",
+  "tooltipKind" : "sword",
+  "category" : "Trident",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "feroxtridentims.png",
+
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "feroxtridentims.png"
+  },
+  "animationCustom" : {"sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }},
+
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 20,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "knockback" : 20
+    }
+  },  
+  "altAbilityType" : "flurry",
+  
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

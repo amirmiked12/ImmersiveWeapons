@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 18 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "ironbar", "count" : 7 }
+
+  ],
+  "output" : { "item" : "earedjavaling", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

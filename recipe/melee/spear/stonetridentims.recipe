@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 16 },
+    { "item" : "cobblestonematerial", "count" : 9 },
+    { "item" : "plantfibre", "count" : 14 }
+
+  ],
+  "output" : { "item" : "stonetridentims", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

@@ -1,0 +1,37 @@
+{
+  "itemName" : "witchebornwcuved",
+  "price" : 1800,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "a Bastard",
+  "shortdescription" : "Curved Brown Long Sword",
+  "tooltipKind" : "sword",
+  "category" : "Bastard",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "witchebornwcuved.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "witchebornwcuved.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 18
+  },
+  
+  "altAbilityType" : "bladecharge",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 36 },
+    { "item" : "blackdye", "count" : 2 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "browndye", "count" : 3 }
+
+  ],
+  "output" : { "item" : "woodentridenfarmer", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

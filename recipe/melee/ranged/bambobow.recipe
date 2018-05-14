@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "bamboo", "count" : 9 },
+    { "item" : "leather", "count" : 2 },
+	{ "item" : "greendye", "count" : 2 },
+	{ "item" : "Bamboarrow", "count" : 1 },
+	{ "item" : "string", "count" : 5 }
+
+  ],
+  "output" : { "item" : "bambobow", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Ranged", "all" ]
+}

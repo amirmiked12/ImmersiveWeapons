@@ -1,0 +1,17 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 8 },
+	{ "item" : "ironbar", "count" : 1 },
+    { "item" : "silverbar", "count" : 8 },
+    { "item" : "string", "count" : 8 },
+	{ "item" : "reddye", "count" : 1 },
+	{ "item" : "blackdye", "count" : 1 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "browndye", "count" : 1 },
+	{ "item" : "feathermaterialim", "count" : 2 },
+	{ "item" : "leather", "count" : 4 }
+
+  ],
+  "output" : { "item" : "connorconwayassasintomahawk", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

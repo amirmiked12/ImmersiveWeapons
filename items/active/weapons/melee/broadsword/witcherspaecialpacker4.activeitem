@@ -1,0 +1,37 @@
+{
+  "itemName" : "witcherspaecialpacker4",
+  "price" : 1800,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "It Looks Familiar ! ",
+  "shortdescription" : "iron Bastard",
+  "tooltipKind" : "sword",
+  "category" : "Bastard",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "witcherspaecialpacker4.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "witcherspaecialpacker4.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 21
+  },
+  
+  "altAbilityType" : "downstab",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

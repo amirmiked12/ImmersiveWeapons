@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 7 },
+    { "item" : "purpledye", "count" : 2 },
+	{ "item" : "darkwoodmaterial", "count" : 4 },	
+    { "item" : "leather", "count" : 2 },
+	{ "item" : "string", "count" : 5 }
+
+  ],
+  "output" : { "item" : "dontelokantaprupstragihter", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Sword", "all" ]
+}

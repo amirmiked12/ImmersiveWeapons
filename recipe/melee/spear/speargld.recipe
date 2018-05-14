@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 10 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "string", "count" : 7 }
+
+  ],
+  "output" : { "item" : "speargld", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

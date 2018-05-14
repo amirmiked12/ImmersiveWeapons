@@ -1,0 +1,40 @@
+{
+  "itemName" : "florantridentpostioneuis",
+  "price" : 1600,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "It's Toxic",
+  "shortdescription" : "Floran Spear",
+  "tooltipKind" : "sword",
+  "category" : "Trident",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "florantridentpostioneuis.png",
+
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "florantridentpostioneuis.png"
+  },
+  "animationCustom" : {"sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }},
+
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.7,
+    "baseDps" : 18.6
+  },  
+  "altAbilityType" : "elementalspin",
+  
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

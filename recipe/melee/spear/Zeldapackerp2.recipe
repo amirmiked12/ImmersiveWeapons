@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 3 },
+    { "item" : "darkwoodmaterial", "count" : 12 },
+	{ "item" : "goldbar", "count" : 1 },
+    { "item" : "leather", "count" : 4 },
+	{ "item" : "bluedye", "count" : 2 },
+	{ "item" : "string", "count" : 4 }
+
+  ],
+  "output" : { "item" : "Zeldapackerp2", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

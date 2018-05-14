@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 },
+	{ "item" : "Bamboarrow", "count" : 1 },
+	{ "item" : "plantfibre", "count" : 10 }
+
+  ],
+  "output" : { "item" : "stonebowims", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Ranged", "all" ]
+}

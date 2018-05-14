@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 9 },
+	{ "item" : "browndye", "count" : 1 }
+
+  ],
+  "output" : { "item" : "giantclubpacker8", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

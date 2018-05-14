@@ -1,0 +1,55 @@
+{
+  "itemName" : "stonebowims",
+  "price" : 50,
+  "inventoryIcon" : "stonebowimsicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "Harvests meat and other goods from monsters.",
+  "shortdescription" : "Primitive Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "level" : 1,
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "stonebowims.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/Combat_bow_pull.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/Bow_release_perfect_new.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "Bamboarrow",
+    "powerProjectileType" : "Bamboarrow",
+    "projectileParameters" : {
+      "power" : 15
+    }
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "Bamboarrow",
+    "projectileParameters" : {
+      "power" : 15.125
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

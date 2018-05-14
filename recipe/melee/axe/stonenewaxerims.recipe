@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 9 },
+    { "item" : "cobblestonematerial", "count" : 6 },
+    { "item" : "plantfibre", "count" : 9 }
+
+  ],
+  "output" : { "item" : "stonenewaxerims", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

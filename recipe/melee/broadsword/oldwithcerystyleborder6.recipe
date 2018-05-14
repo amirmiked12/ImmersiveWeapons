@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 6 },
+	{ "item" : "yellowdye", "count" : 3 },
+	{ "item" : "blackdye", "count" : 2 },
+    { "item" : "ironbar", "count" : 13 },
+	{ "item" : "darkwoodmaterial", "count" : 5 },
+    { "item" : "string", "count" : 9 }
+
+  ],
+  "output" : { "item" : "oldwithcerystyleborder6", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

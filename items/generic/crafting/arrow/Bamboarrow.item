@@ -1,0 +1,10 @@
+{
+  "itemName" : "Bamboarrow",
+  "price" : 1,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "Bamboarrow.png",
+  "description" : "Just A Simple Arrow",
+  "shortdescription" : "Bamboo Arrow",
+  "itemTags" : [ "reagent" ]
+}

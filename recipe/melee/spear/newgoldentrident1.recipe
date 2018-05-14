@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "goldbar", "count" : 8 },
+    { "item" : "string", "count" : 5 }
+
+  ],
+  "output" : { "item" : "newgoldentrident1", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

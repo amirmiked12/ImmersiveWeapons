@@ -1,0 +1,37 @@
+{
+  "itemName" : "samurailng",
+  "price" : 1900,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Katana",
+  "shortdescription" : "Samurai Long katana",
+  "tooltipKind" : "sword",
+  "category" : "Katana",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "samurailng.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "samurailng.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 17
+  },
+  
+  "altAbilityType" : "",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

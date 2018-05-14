@@ -1,0 +1,44 @@
+{
+  "itemName" : "feroxquarterstaffims",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Very Basic Hunting staff",
+  "shortdescription" : "Fenerox staff",
+  "tooltipKind" : "sword",
+  "category" : "Quarterstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "feroxquarterstaffims.png",
+
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "feroxquarterstaffims.png"
+  },
+  "animationCustom" : {"sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }},
+
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.6,
+    "baseDps" : 15,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "knockback" : 17
+    }
+  },  
+  "altAbilityType" : "spearspin",
+  
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

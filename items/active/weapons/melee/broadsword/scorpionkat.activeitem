@@ -1,0 +1,37 @@
+{
+  "itemName" : "scorpionkat",
+  "price" : 3000,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Katana",
+  "shortdescription" : "Scorpion Katana",
+  "tooltipKind" : "sword",
+  "category" : "Katana",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "scorpionkat.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "scorpionkat.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.6,
+    "baseDps" : 21.2
+  },
+  
+  "altAbilityType" : "risingslash",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

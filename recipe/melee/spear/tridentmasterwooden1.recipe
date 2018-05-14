@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "orangedye", "count" : 3 }
+
+  ],
+  "output" : { "item" : "tridentmasterwooden1", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

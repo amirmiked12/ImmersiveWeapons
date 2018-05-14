@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "bone", "count" : 12 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "feathermaterialim", "count" : 2 },
+	{ "item" : "browndye", "count" : 2 }
+
+  ],
+  "output" : { "item" : "bonetamahakerpacker", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 18 },
+    { "item" : "string", "count" : 7 },
+	{ "item" : "ironbar", "count" : 8 }
+
+  ],
+  "output" : { "item" : "warspearmetalwood", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

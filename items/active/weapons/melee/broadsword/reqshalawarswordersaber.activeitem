@@ -1,0 +1,37 @@
+{
+  "itemName" : "reqshalawarswordersaber",
+  "price" : 1500,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An Old Sword I Don't Know Where It Belongs.",
+  "shortdescription" : "Old Broadsword",
+  "tooltipKind" : "sword",
+  "category" : "Saber",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "reqshalawarswordersaber.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "reqshalawarswordersaber.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 16
+  },
+  
+  "altAbilityType" : "flipslash",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

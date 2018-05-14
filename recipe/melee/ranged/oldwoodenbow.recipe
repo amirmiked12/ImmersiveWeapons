@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "darkwoodmaterial", "count" : 11 },    
+	{ "item" : "ironbar", "count" : 2 },
+    { "item" : "leather", "count" : 4 },
+	{ "item" : "orangedye", "count" : 3 },
+	{ "item" : "browndye", "count" : 1 },
+	{ "item" : "string", "count" : 8 }
+
+  ],
+  "output" : { "item" : "oldwoodenbow", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Ranged", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 17 },
+    { "item" : "darkwoodmaterial", "count" : 30 },
+    { "item" : "leather", "count" : 7 },
+	{ "item" : "string", "count" : 9 },
+	{ "item" : "plantfibre", "count" : 15 }
+
+  ],
+  "output" : { "item" : "oldrustedgianthammer", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Hammer", "all" ]
+}

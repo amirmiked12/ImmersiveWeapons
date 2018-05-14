@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "orangedye", "count" : 2 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "leather", "count" : 2 }
+
+  ],
+  "output" : { "item" : "asssasineraxepacker11", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

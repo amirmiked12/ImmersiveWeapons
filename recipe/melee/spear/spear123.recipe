@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "darkwoodmaterial", "count" : 12 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "string", "count" : 7 },
+	{ "item" : "silverbar", "count" : 6 },
+	{ "item" : "browndye", "count" : 2 }
+
+  ],
+  "output" : { "item" : "spear123", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

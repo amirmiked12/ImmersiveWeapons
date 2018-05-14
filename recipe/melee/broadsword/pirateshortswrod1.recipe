@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 3 },
+    { "item" : "ironbar", "count" : 7 },
+	{ "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "string", "count" : 8 },
+	{ "item" : "blackdye", "count" : 1 }
+
+  ],
+  "output" : { "item" : "pirateshortswrod1", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

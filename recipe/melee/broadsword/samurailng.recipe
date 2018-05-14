@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "reddye", "count" : 2 },
+    { "item" : "goldbar", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "silverbar", "count" : 12 }
+
+  ],
+  "output" : { "item" : "samurailng", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

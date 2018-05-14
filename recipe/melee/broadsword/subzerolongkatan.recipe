@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "bluedye", "count" : 3 },
+    { "item" : "leather", "count" : 2 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "iceblock", "count" : 25 }
+
+  ],
+  "output" : { "item" : "subzerolongkatan", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

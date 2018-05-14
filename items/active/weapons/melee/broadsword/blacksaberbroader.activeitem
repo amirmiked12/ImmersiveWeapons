@@ -1,0 +1,37 @@
+{
+  "itemName" : "blacksaberbroader",
+  "price" : 2500,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "a sword",
+  "shortdescription" : "Iron Sword",
+  "tooltipKind" : "sword",
+  "category" : "sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "blacksaberbroader.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "blacksaberbroader.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.6,
+    "baseDps" : 13
+  },
+  
+  "altAbilityType" : "parry",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

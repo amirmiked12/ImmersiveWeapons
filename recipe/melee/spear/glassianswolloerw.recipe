@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "blackdye", "count" : 2 },
+    { "item" : "glass", "count" : 14 },
+    { "item" : "leather", "count" : 3 },
+    { "item" : "string", "count" : 7 }
+
+  ],
+  "output" : { "item" : "glassianswolloerw", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

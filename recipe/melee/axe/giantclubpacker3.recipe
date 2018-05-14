@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cactiblock", "count" : 9 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "liquidpoison", "count" : 5 }
+
+  ],
+  "output" : { "item" : "giantclubpacker3", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

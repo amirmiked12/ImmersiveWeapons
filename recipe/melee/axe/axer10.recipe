@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 9 },
+	{ "item" : "tungstenbar", "count" : 7 },
+	{ "item" : "ironbar", "count" : 1 },
+    { "item" : "string", "count" : 9 },
+	{ "item" : "feathermaterialim", "count" : 2 },
+	{ "item" : "reddye", "count" : 1 },
+	{ "item" : "browndye", "count" : 2 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "leather", "count" : 4 }
+
+  ],
+  "output" : { "item" : "axer10", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

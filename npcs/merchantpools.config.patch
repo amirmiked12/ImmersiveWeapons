@@ -1,0 +1,7 @@
+[
+ {
+  "op": "add",
+  "path": "/basicmerchant/0/1/-",
+  "value": { "item" : { "name" : "feathermaterialim" }, "rarity" : 0.5 }
+ }
+]

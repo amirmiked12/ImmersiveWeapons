@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "blackdye", "count" : 3 },
+    { "item" : "ironbar", "count" : 4 },
+	{ "item" : "string", "count" : 3 }
+
+  ],
+  "output" : { "item" : "gaurderstick", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Dagger", "all" ]
+}

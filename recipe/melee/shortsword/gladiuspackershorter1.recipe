@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 4 },
+	{ "item" : "browndye", "count" : 2 },
+	{ "item" : "reddye", "count" : 2 },
+    { "item" : "ironbar", "count" : 9 },
+	{ "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "string", "count" : 6 }
+
+  ],
+  "output" : { "item" : "gladiuspackershorter1", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Sword", "all" ]
+}

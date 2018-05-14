@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 300 },
+    { "item" : "ironbar", "count" : 25 },
+	{ "item" : "tungstenbar", "count" : 12 },
+	{ "item" : "copperbar", "count" : 12 },
+	{ "item" : "liquidlava", "count" : 20 },
+	{ "item" : "string", "count" : 40 },
+	{ "item" : "cobblestonematerial", "count" : 30 },
+	{ "item" : "leather", "count" : 12 },
+	{ "item" : "liquidwater", "count" : 20 }
+	
+  ],
+  "output" : {
+    "item" : "immersiveweaponcrafting",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable" ]
+}

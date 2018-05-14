@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 5 },
+    { "item" : "ironbar", "count" : 12 },
+	{ "item" : "darkwoodmaterial", "count" : 5 },
+    { "item" : "string", "count" : 8 }
+
+  ],
+  "output" : { "item" : "longsowrdmedivaler4", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

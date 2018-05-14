@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "yellowdye", "count" : 3 },
+    { "item" : "greendye", "count" : 4 },
+	{ "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "leather", "count" : 5 },
+    { "item" : "string", "count" : 8 },
+	{ "item" : "silverbar", "count" : 12 }
+
+  ],
+  "output" : { "item" : "reqshalawarswordersaber", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

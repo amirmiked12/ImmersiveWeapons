@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 3 },
+    { "item" : "ironbar", "count" : 7 },
+	{ "item" : "blackdye", "count" : 2 },
+	{ "item" : "string", "count" : 4 }
+
+  ],
+  "output" : { "item" : "silveronehandaxwe", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "blackdye", "count" : 3 },
+	{ "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "leather", "count" : 2 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "silverbar", "count" : 12 }
+
+  ],
+  "output" : { "item" : "Katanasw", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

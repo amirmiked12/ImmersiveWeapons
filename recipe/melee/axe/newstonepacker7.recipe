@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 14 },
+    { "item" : "string", "count" : 6 },
+	{ "item" : "leather", "count" : 3 },
+	{ "item" : "yellowdye", "count" : 1 },
+	{ "item" : "orangedye", "count" : 3 }
+
+  ],
+  "output" : { "item" : "newstonepacker1", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

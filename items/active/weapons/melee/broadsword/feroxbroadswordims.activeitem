@@ -1,0 +1,41 @@
+{
+  "itemName" : "feroxbroadswordims",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "heavy But Killer In Hunting",
+  "shortdescription" : "Fenerox Great Sword",
+  "tooltipKind" : "sword",
+  "category" : "Long Sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "feroxbroadswordims.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "feroxbroadswordims.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1,
+    "baseDps" : 25,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "knockback" : 20
+    }
+  },
+  
+  "altAbilityType" : "risingslash",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

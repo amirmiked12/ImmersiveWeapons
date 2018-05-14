@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 2 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "leather", "count" : 3 },
+	{ "item" : "ironbar", "count" : 6 }
+
+  ],
+  "output" : { "item" : "spikedgoldernmacertiz", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 8 },
+	{ "item" : "silverbar", "count" : 8 },
+	{ "item" : "bluedye", "count" : 2 },
+    { "item" : "plantfibre", "count" : 4 },
+    { "item" : "string", "count" : 8 },
+	{ "item" : "orangedye", "count" : 2 },
+	{ "item" : "leather", "count" : 4 }
+
+  ],
+  "output" : { "item" : "silvertommahawkerpack", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 10 },
+    { "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "leather", "count" : 2 },
+	{ "item" : "browndye", "count" : 1 },
+	{ "item" : "string", "count" : 3 }
+
+  ],
+  "output" : { "item" : "redlinehandler6", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Broadsword", "all" ]
+}

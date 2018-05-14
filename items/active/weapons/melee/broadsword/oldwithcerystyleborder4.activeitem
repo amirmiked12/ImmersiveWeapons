@@ -1,0 +1,37 @@
+{
+  "itemName" : "oldwithcerystyleborder4",
+  "price" : 1900,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "It's Very Strong! ",
+  "shortdescription" : "Long Bastard",
+  "tooltipKind" : "sword",
+  "category" : "Bastard",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "oldwithcerystyleborder4.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "oldwithcerystyleborder4.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 23
+  },
+  
+  "altAbilityType" : "risingslash",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

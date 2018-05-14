@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "darkwoodmaterial", "count" : 14 },
+    { "item" : "leather", "count" : 3 },
+    { "item" : "string", "count" : 7 }
+
+  ],
+  "output" : { "item" : "newswallowtype1", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

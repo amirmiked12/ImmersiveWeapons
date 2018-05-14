@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 2 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "ironbar", "count" : 3 },
+    { "item" : "string", "count" : 2 },
+	{ "item" : "leather", "count" : 1 }
+
+  ],
+  "output" : { "item" : "raphaerlsaier", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Dagger", "all" ]
+}

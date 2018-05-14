@@ -1,0 +1,37 @@
+{
+  "itemName" : "gladiusospacker2",
+  "price" : 2000,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "I think it Was used By Romans",
+  "shortdescription" : "Gladius",
+  "tooltipKind" : "sword",
+  "category" : "Broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "gladiusospacker2.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "gladiusospacker2.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "baseDps" : 21
+  },
+  
+  "altAbilityType" : "downstab",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

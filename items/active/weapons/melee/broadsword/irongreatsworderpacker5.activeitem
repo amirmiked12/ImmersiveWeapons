@@ -1,0 +1,37 @@
+{
+  "itemName" : "irongreatsworderpacker5",
+  "price" : 2500,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "its very heavy",
+  "shortdescription" : "Tungsten Great Sword",
+  "tooltipKind" : "sword",
+  "category" : "Long Sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "irongreatsworderpacker5.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "irongreatsworderpacker5.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.1,
+    "baseDps" : 26
+  },
+  
+  "altAbilityType" : "parry",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

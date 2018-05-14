@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 20 },
+    { "item" : "leather", "count" : 3 },
+    { "item" : "string", "count" : 7 }
+
+  ],
+  "output" : { "item" : "woodenslwaoernew2", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}

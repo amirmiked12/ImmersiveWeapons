@@ -1,0 +1,37 @@
+{
+  "itemName" : "Zeldapackerp5",
+  "price" : 4000,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Just Wondering What Does That Symbol Mean ",
+  "shortdescription" : "Legend Of Zelda Katana",
+  "tooltipKind" : "sword",
+  "category" : "Katana",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "Zeldapackerp5.png",
+
+  "animation" : "combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "Zeldapackerp5.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "baseDps" : 20
+  },
+  
+  "altAbilityType" : "flipslah",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

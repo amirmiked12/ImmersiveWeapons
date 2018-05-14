@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 9 },
+    { "item" : "whitedye", "count" : 2 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "bluedye", "count" : 2 },
+	{ "item" : "ironbar", "count" : 2 },
+	{ "item" : "orangedye", "count" : 2 }
+
+  ],
+  "output" : { "item" : "spikedbatorange", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

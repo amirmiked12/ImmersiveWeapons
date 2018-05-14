@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "string", "count" : 5 },
+	{ "item" : "leather", "count" : 4 },
+	{ "item" : "silverbar", "count" : 5 },
+	{ "item" : "browndye", "count" : 2 },
+	{ "item" : "darkwoodmaterial", "count" : 4 }
+
+  ],
+  "output" : { "item" : "macenewroundspiked", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

@@ -1,0 +1,48 @@
+{
+  "objectName" : "immersiveweaponcrafting",
+  "category" : "crafting",
+  "rarity" : "common",
+  "description" : "A Big Workshop",
+  "shortdescription" : "immersive weapons",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/immersivecraftingc.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "medieval Workshop",
+        "subtitle" : "All Sorts Of Weapons",
+        "icon" : {
+          "file" : "/interface/immerisveweaponsui/immmerisvepng.png"
+        }
+      }
+    },
+    "filter" : [ "immersiveweaponcrafting" ]
+  },
+  "printable" : false,
+  "price" : 2000,
+
+  "apexDescription" : "A Big Workshop.I Can Craft Some Weapons In Here",
+  "avianDescription" : "An Old Workshop.I Can Craft Some Weapons In Here",
+  "floranDescription" : "A Workshop.I Can Craft Ssssssome Weapons In Here.But Dont Like it",
+  "glitchDescription" : "A Workshop.I Can Produce Some Weapons In Here",
+  "humanDescription" : "A Cool Workshop.I Can Craft Some Strong Weapons In Here",
+  "hylotlDescription" : "A Workshop.Weapons Can be Crafted In Here",	
+  
+   
+  "inventoryIcon" : "immersiveweaponcrafting.png",
+  "orientations" : [
+    {
+      "dualImage" : "immersiveweaponcrafting.png:<color>.<frame>",
+	
+      "imagePosition" : [0, 0],
+      "frames" : 7,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+
+}

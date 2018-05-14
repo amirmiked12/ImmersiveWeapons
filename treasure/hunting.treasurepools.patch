@@ -1,0 +1,14 @@
+[
+{"op":"add",
+    "path":"/hunting/0/1/pool/-",
+    "value": {"weight":0.05, "item":"feathermaterialim"}
+},
+{"op":"add",
+    "path":"/huntingquadruped/0/1/pool/-",
+    "value": {"weight":0.05, "item":"feathermaterialim"}
+},
+{"op":"add",
+    "path":"/huntingflying/0/1/pool/-",
+    "value": {"weight":0.5, "item":"feathermaterialim"}
+}
+]

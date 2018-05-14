@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 3 },
+    { "item" : "silverbar", "count" : 2 },
+    { "item" : "string", "count" : 5 },
+	{ "item" : "leather", "count" : 4 },
+	{ "item" : "goldbar", "count" : 5 },
+	{ "item" : "browndye", "count" : 2 }
+
+  ],
+  "output" : { "item" : "goldenmacealternew", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Axe", "all" ]
+}

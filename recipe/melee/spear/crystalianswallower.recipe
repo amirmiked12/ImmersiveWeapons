@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bluedye", "count" : 2 },
+    { "item" : "iceblock", "count" : 14 },
+    { "item" : "leather", "count" : 3 },
+    { "item" : "string", "count" : 7 }
+
+  ],
+  "output" : { "item" : "crystalianswallower", "count" : 1 },
+  "groups" : [ "immersiveweaponcrafting", "Spear", "all" ]
+}
